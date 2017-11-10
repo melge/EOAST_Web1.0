@@ -11,9 +11,6 @@ html {
 }
 body {
   margin: 0;
-  background: url(../images/47.jpg);
-  background-attachment: fixed;
-  
   font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
   color: #000;
 }
@@ -1590,11 +1587,12 @@ pre code {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+ /* padding-right: 15px;
+  padding-left: 15px;*/
   margin-right: auto;
   margin-left: auto;
   background: #d6d9dd;
+  overflow: hidden;
 
 }
 @media (min-width: 768px) {
