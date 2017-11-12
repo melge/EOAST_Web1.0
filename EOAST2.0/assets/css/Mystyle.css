@@ -1,7 +1,18 @@
+/*摘要中文字段落格式：白字*/
 .abstract{
     padding: 0 15px;
     font-size: 14px;
     color: #fff;
+}
+/*摘要中文字段落格式：黑字*/
+.abstract1{
+    padding: 0 15px;
+    font-size: 14px;
+    color: #000;
+}
+/*段落两边缩进*/
+.indent{
+    padding: 0 15px;
 }
 .text-white{
 	color:#fff;
