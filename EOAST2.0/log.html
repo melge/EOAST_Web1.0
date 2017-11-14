@@ -1,64 +1,231 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+
+<html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>电光科协_EOAST</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <title>电光院科协</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+    
   </head>
 
-  <body>
-  
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
     <div class="container">
 
-      <nav class="navbar navbar-inverse" role="navigation"><!--导航栏,手机版并不美观-->
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!--导航栏,手机版并不美观-->
         <div class="container-fluid">
           <div class="navbar-header navbar-left">
-            <a class="navbar-brand " >电光科协_EOAST</a>
+            <a class="navbar-brand ">电光科协_EOAST</a>
           </div>
           <div>
-              <ul class="nav navbar-nav navbar-right ">
-                  <li><a href="index.html">首页</a></li>
-                  <li><a href="hdgx.html">活动更新</a></li>
-                  <li><a href="log.html">科协日志</a></li>
-                  <li><a href="#">科协团队</a></li>
-                  <li><a href="#">联系我们</a></li>
-              </ul>
+            <ul class="nav navbar-nav navbar-right ">
+              <li>
+                <a href="#">首页</a>
+              </li>
+              <li>
+                <a href="#">活动更新</a>
+              </li>
+              <li>
+                <a href="#">科协日志</a>
+              </li>
+              <li>
+                <a href="#">科协团队</a>
+              </li>
+              <li>
+                <a href="#">科协团队</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
-      <aside class="container">
-            <p class="text-info">
-              <span>记录我们的点滴
-              </span>
-            </p>
-      </aside>
-      <ol class="breadcrumb">
-        <li>
-          <a href="#">主页</a>
-        </li>
-        <li class="active">日志</li>
-      </ol>
+      <!-- 列表菜单 -->
+      <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+          <h1 class="logo"><a href="index.html#home">电光院科协</a></h1>
+          <i class="fa fa-times menu-close"></i>
+          <a href="#home" class="smoothScroll">科协简介</a>
+          <a href="#about" class="smoothScroll">科协职能</a>
+          <a href="#portfolio" class="smoothScroll">科协历史</a>
+          <a href="#services" class="smoothScroll">科协成员</a>
+          <a href="#contact" class="smoothScroll">客户端</a>
+          <p style="color: white;">-----------------------------</p>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-dribbble"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+
+        <!-- Menu button -->
+        <div id="menuToggle"><i class="fa fa-bars"></i></div>
+      </nav>
+
+      <section id="科协简介" name="科协简介"></section>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        
+        <h1 class="text-center">科协日志</h1>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-md-4 ">
+                <a class="thumbnail" href="#" title="Link to Single Page">
+                  <h4 class="">电赛</h4>
+                  <p>Cras vestibulum lorem et dui mollis sed posuere leo semper.</p>
+                  <img class="img-rounded " alt="" src="assets/images/uploads/46.jpg" />
+                </a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a class="thumbnail" href="#" title="Link to Single Page">
+                  <h4 class="">电赛</h4>
+                  <p>Cras vestibulum lorem et dui mollis sed posuere leo semper.</p>
+                  <img class="img-rounded" alt="" src="assets/images/uploads/ads_lab.png" />
+                </a>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <a class="thumbnail" href="#" title="Link to Single Page">
+                  <h4 class="">电赛</h4>
+                  <p>Cras vestibulum lorem et dui mollis sed posuere leo semper.</p>
+                  <img alt="" src="assets/images/uploads/ads_lab.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="aboutwrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <img class="img-responsive" src="assets/img/pic.png">
+              <div class="name-label"></div>
+            </div>
+            <! --/col-lg-4-->
+            <div class="col-xs-12 col-md-8">
+              <h2>某某年 <br/>某某月 <br/>某某日 电光院科协举行了某某活动</h2>
+              <div class="name-zig"></div>
+
+              <div class="col-xs-10 col-md-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              <div class="col-xs-12 col-md-8">
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+              </div>
+
+            </div>
+            <!--/col-lg-8-->
+
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /aboutwrap -->
+       <div id="aboutwrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 name">
+              <img class="img-responsive" src="assets/img/pic.png">
+              <p>计部大佬</p>
+              <div class="name-label"></div>
+            </div>
+            <! --/col-lg-4-->
+            <div class="col-lg-7 name-desc">
+              <h2>某某年 <br/>某某月 <br/>某某日 电光院科协举行了某某活动</h2>
+              <div class="name-zig"></div>
+
+              <div class="col-md-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              <div class="col-md-4">
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+              </div>
+
+            </div>
+            <!--/col-lg-8-->
+
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /aboutwrap -->
+
+        <section id="contact" name="contact"></section>
+      <!-- CONTACT SEPARATOR -->
+      <div class="sep contact" data-stellar-background-ratio="0.5"></div>
+
+        <div id="contactwrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <p>如果你有任何创意idea</p>
+              <p>
+                <small>如果你也热爱科学<br/>如果你也渴望创新<br/>如果你还缺少这样一个平台
+              </p>
+              <p>来联系我们吧</p>
+              <p>
+                <small>邮箱：xxx@xxx.com<br/>QQ群：xxxx<br/>微信：xxxx </small>
+              </p>
+            
+        </div>
+        
+        <div class="col-lg-6">
+          <form role="form">
+            <div class="form-group">
+              <label for="exampleInputName1">你的名字</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+              <label for="exampleInputEmail1">邮箱地址</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              <label for="exampleInputText1">内容</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">发送</button>
+          </form>
+        </div>
       
-      <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
+      </div><!--/row -->
+    </div><!-- /container -->
+  </div>
+   <script src="assets/js/jquery.min.js"></script>
+    </body>
+  <script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+  <script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+  <script src="assets/js/main.js"></script>
+    <script>
+    $(function(){
+      $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 40
+      });
+    });
+    </script>
+    
+    <script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+     </script>
 
-    <!--</div>-->
   </body>
-
 </html>
