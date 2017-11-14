@@ -1,3 +1,54 @@
+/*首行缩进两字符*/
+
+/*首页，科协团队*/
+.eost_team > nav >h1 h2 h3 h4 h5 h6{
+    margin: 0 auto;
+    margin-top:  10px;
+}
+.scrollspy-example {
+    position: relative;
+    height: 255px;
+    margin-top: .5rem;
+    overflow: auto;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.navbar > h1 h2 h3 h4 h5 h6{
+    margin-top:  10px;
+}
+.scrollspy-example > h4{
+    text-align: center;
+    margin-top: 30px;
+}
+.scrollspy-example > p{
+    text-indent:2em; 
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+/*导航栏背景颜色*/
+.navbar > .container{
+    min-height: 50px;
+    background-color: rgba(109, 109, 109, 0.5);
+}
+/*摘要中文字段落格式：白字*/
+.abstract{
+    padding: 0 15px;
+    font-size: 14px;
+    color: #fff;
+}
+/*摘要中文字段落格式：黑字*/
+.abstract1{
+    padding: 0 15px;
+    font-size: 14px;
+    color: #000;
+}
+/*段落两边缩进*/
+.indent > p{
+    padding: 0 8px;
+    text-indent:2em;
+    margin-bottom: 0px;
+}
 .text-white{
 	color:#fff;
 }
@@ -10,11 +61,6 @@
     font-size: 100%;
     vertical-align: baseline;
     background: 0 0;
-}
-.wan{
-	content: "";
-	height: 700px;
-	width: 600px;
 }
 
 /*滚动仅文字*/
@@ -41,10 +87,4 @@
     top: 0px;
     background-color: rgba(0, 7, 11, 0.45);
     padding: 20px;
-}
-.scrollspy-example {
-    position: relative;
-    height: 200px;
-    margin-top: .5rem;
-    overflow: auto;
 }
