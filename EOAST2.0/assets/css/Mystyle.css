@@ -1,5 +1,7 @@
-/*首行缩进两字符*/
-
+/*背景图片*/
+.back-image{
+    
+}
 /*首页，科协团队*/
 .eost_team > nav >h1 h2 h3 h4 h5 h6{
     margin: 0 auto;
