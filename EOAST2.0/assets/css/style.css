@@ -60,15 +60,15 @@ body {
     height: 100%;
 }
 
-body {
+/*body {
     font-family: "Lato" sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #000;
-
+background: url(assets/images/uploads/32.jpg);
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Oswald", sans-serif;
@@ -396,6 +396,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30px;
 	vertical-align: middle;
 }
+/*图标文字与文字并排*/
+.service1 i {
+	margin-right: 15px;
+    font-size: 26px;
+    vertical-align: middle;
+    font-style: inherit;
+}
+.service1 span{
+	margin-right: 10px;
+}
 
 .service .text {
 	color: #767676
@@ -411,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact Wrap */
 #contactwrap {
-	background-color: #2f2f2f;
+	
 	margin-top: 0px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -426,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../images/team/57.jpg);
 }
 
 #contactwrap label {
